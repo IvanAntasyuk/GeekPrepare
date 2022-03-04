@@ -1,6 +1,6 @@
 package lesson1.task2;
 
-class Lorry extends Car,Moveable, Stopable { ///class Lorry extends Car implements   Moveable, Stopable
+class Lorry  { ///class Lorry extends Car implements   Moveable, Stopable
     // отсутствует конструктор
     public void move(){
         System.out.println("Car is moving");
