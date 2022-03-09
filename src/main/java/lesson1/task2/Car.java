@@ -1,7 +1,7 @@
 package lesson1.task2;
 
 abstract class Car {
-    public Engine engine;  // Отсутствует класс  Engine и модификатор доступа должен быть private
+//    public Engine engine;  // Отсутствует класс  Engine и модификатор доступа должен быть private
     private String color;
     private String name;
     // отсутствует конструктор
@@ -12,13 +12,13 @@ abstract class Car {
 
     abstract void open();
 
-    public Engine getEngine() {
-        return engine;
-    }
+//    public Engine getEngine() {
+//        return engine;
+//    }
 
-    public void setEngine(Engine engine) {
-        this.engine = engine;
-    }
+//    public void setEngine(Engine engine) {
+//        this.engine = engine;
+//    }
 
     public String getColor() {
         return color;
