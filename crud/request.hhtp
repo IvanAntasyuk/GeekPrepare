@@ -1,0 +1,47 @@
+GET http://localhost:8081/api/v1/user/3/id
+Accept: application/json
+
+###
+POST http://localhost:8081/api/v1/user
+Content-Type: application/json
+
+{
+  "firstname": "Ivan",
+  "lastname": "Petrov",
+  "login": "1234",
+  "password":  "qwerty"
+}
+
+###
+
+POST http://localhost:8081/api/v1/user
+Content-Type: application/json
+
+{
+  "firstname": "Petr",
+  "lastname": "Petrov",
+  "login": "1234",
+  "password":  "qwerty"
+}
+
+###
+
+
+POST http://localhost:8081/api/v1/user
+Content-Type: application/json
+
+{
+  "firstname": "Vasya",
+  "lastname": "Vasya",
+  "login": "4321 ",
+  "password":  "qwerty"
+}
+
+###
+GET http://localhost:8081/api/v1/user/all
+
+
+###
+
+
+DELETE  http://localhost:8081/api/v1/user/1/id
